@@ -1,0 +1,13 @@
+apiVersion: v1
+data:
+  name: Manoel
+kind: ConfigMap
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","data":{"name":"Manoel"},"kind":"ConfigMap","metadata":{"annotations":{},"creationTimestamp":"2022-12-05T00:47:55Z","name":"kubernetes-challenge-cm1","namespace":"default","resourceVersion":"4788","uid":"11420f30-d01a-4c25-927d-cf539e3a4331"}}
+  creationTimestamp: "2022-12-05T00:47:55Z"
+  name: kubernetes-challenge-cm1
+  namespace: default
+  resourceVersion: "4819"
+  uid: 11420f30-d01a-4c25-927d-cf539e3a4331
